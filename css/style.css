@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+
+body {
+    background-color: #121212;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 12%;
+}
+
+.center-children {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+    background-color: #242424;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.day-card {
+    min-width: 22%;
+}

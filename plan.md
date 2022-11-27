@@ -1,31 +1,34 @@
 # Terv és beosztás
 
-| 📅   | Tananyag                          | Kész | Téma                         |
-| --- | --------------------------------- | ---- | ---------------------------- |
-| 1   | GitHub repo előkészítés           | ✅    | Programozás                  |
-| 2   | egyszerű HTML: listák és képek    | ✅    | Édesség lista Mikulásra      |
-| 3   | CSS: tag kij., színek, display    |      | Alap díszítés a Mikulásnak   |
-| 4   | iframe, média                     |      | Térkép és zene / videó       |
-| 5   | CSS: bonyolultabb kij. és tulajd. |      | Díszítés befejezése          |
-| 6   | linkek, gyakorlás, kívánságok     |      | Jézuskának másik oldal kell  |
-| 7   | noJS téma váltás: checkbox trükk  |      |                              |
-| 8   | noJS modal                        |      | filmek listája előzetesekkel |
-| 9   |                                   |      |                              |
-| 10  |                                   |      |                              |
-| 11  |                                   |      |                              |
-| 12  |                                   |      |                              |
-| 13  |                                   |      |                              |
-| 14  |                                   |      |                              |
-| 15  |                                   |      |                              |
-| 16  |                                   |      |                              |
-| 17  |                                   |      |                              |
-| 18  |                                   |      |                              |
-| 19  |                                   |      |                              |
-| 20  |                                   |      |                              |
-| 21  |                                   |      |                              |
-| 22  |                                   |      |                              |
-| 23  |                                   |      |                              |
-| 24  |                                   |      |                              |
+| 📅   | Tananyag                          | ?   | Téma                         |
+| --- | --------------------------------- | --- | ---------------------------- |
+| 1   | GitHub repo előkészítés           | ✅   | Programozás                  |
+| 2   | egyszerű HTML: listák és képek    | ✅   | Édesség lista Mikulásra      |
+| 3   | CSS: tag kij., színek, display    | 👌   | Alap díszítés a Mikulásnak   |
+| 4   | iframe, média                     | 👌   | Térkép és zene / videó       |
+| 5   | CSS: bonyolultabb kij. és tulajd. | 👌   | Díszítés befejezése          |
+| 6   | linkek, gyakorlás, kívánságok     | 👌   | Jézuskának másik oldal kell  |
+| 7   | favicon és betűtípus              |     |                              |
+| 8   | noJS téma váltás: checkbox trükk  |     |                              |
+| 9   | noJS modal                        |     | filmek listája előzetesekkel |
+| 10  |                                   |     |                              |
+| 11  |                                   |     |                              |
+| 12  |                                   |     |                              |
+| 13  |                                   |     |                              |
+| 14  |                                   |     |                              |
+| 15  |                                   |     |                              |
+| 16  |                                   |     |                              |
+| 17  |                                   |     |                              |
+| 18  |                                   |     |                              |
+| 19  |                                   |     |                              |
+| 20  |                                   |     |                              |
+| 21  |                                   |     |                              |
+| 22  |                                   |     |                              |
+| 23  |                                   |     |                              |
+| 24  |                                   |     |                              |
+
+- ✅ oldal elkészítve
+- 👌 ez a téma biztos és jó helyen van
 
 ## Megjegyzések
 

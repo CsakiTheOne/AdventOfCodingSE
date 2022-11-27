@@ -1,22 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     background-color: #121212;
 }
 
-h1 {
+h1, h2, h3 {
+    padding: 8px;
     text-align: center;
+    font-family: 'Mountains of Christmas', cursive;
 }
 
 a {
+    padding: 2px;
+    background-color: #0f8a5e;
+    border-radius: 4px;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+a:hover {
+    background-color: #cc231e;
+}
+
+p {
+    padding: 8px 0;
+}
+
+code {
+    padding: 4px;
+    background-color: #121212;
+    border-radius: 4px;
+}
+
+ol, ul {
+    background-color: #242424;
+    border-radius: 8px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+li {
+    padding: 16px;
+    list-style-position: inside;
+    border-bottom: solid 1px black;
 }
 
 .container {
@@ -40,4 +74,11 @@ a {
 
 .day-card {
     min-width: 22%;
+    transition: all .1s ease-in-out;
+}
+
+.day-card:hover {
+    background-color: #484848;
+    transform: scale(1.1, 1.1);
+    z-index: 3;
 }

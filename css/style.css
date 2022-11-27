@@ -9,13 +9,18 @@
 }
 
 body {
-    background-color: #121212;
+    background-color: #181212;
+    padding-bottom: 300px;
 }
 
 h1, h2, h3 {
     padding: 8px;
     text-align: center;
     font-family: 'Mountains of Christmas', cursive;
+}
+
+p {
+    padding: 8px 0;
 }
 
 a {
@@ -30,27 +35,52 @@ a:hover {
     background-color: #cc231e;
 }
 
-p {
-    padding: 8px 0;
-}
-
 code {
     padding: 4px;
-    background-color: #121212;
+    background-color: #241212;
     border-radius: 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+code.codeblock {
+    display: block;
+    margin: 8px 0;
+    padding: 8px;
 }
 
 ol, ul {
-    background-color: #242424;
+    margin: 8px 0;
+    background-color: #243224;
     border-radius: 8px;
     z-index: 2;
-    overflow: hidden;
+    box-shadow: 0 3px 12px #000000aa;
+}
+
+ol.sublist, ul.sublist {
+    background-color: #324832;
 }
 
 li {
     padding: 16px;
     list-style-position: inside;
     border-bottom: solid 1px black;
+}
+
+kbd {
+    display: inline-block;
+    padding: 2px;
+    color: black;
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 3px 0 gray;
+    cursor: pointer;
+    user-select: none;
+}
+
+kbd:active {
+    background-color: #ddd;
+    box-shadow: 0 0px 0 gray;
+    transform: translateY(3px);
 }
 
 .container {
@@ -67,8 +97,9 @@ li {
     display: inline-block;
     margin: 8px;
     padding: 8px;
-    background-color: #242424;
+    background-color: #243224;
     border-radius: 8px;
+    box-shadow: 0 3px 12px #000000aa;
     z-index: 2;
 }
 
@@ -78,7 +109,7 @@ li {
 }
 
 .day-card:hover {
-    background-color: #484848;
+    background-color: #485248;
     transform: scale(1.1, 1.1);
     z-index: 3;
 }

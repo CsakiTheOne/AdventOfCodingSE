@@ -53,24 +53,27 @@
                     Az oldal címét és pontos tartalmát rád bízom, de adok pár megkötést. Az oldalon kell lennie pár dolognak:
                 </p>
                 <ul class="sublist">
-                    <li>A weboldal címe nem csak a <code>title</code> tag-ben, hanem az oldal tetején is egy <code>h1</code> tag-ben.</li>
+                    <li>
+                        A weboldal címe nem csak a <code>title</code> tag-ben, hanem a body tetején is egy <code>h1</code> tag-ben ott legyen:
+                        <code>&lt;h1&gt;Oldal címe&lt;/h1&gt;</code>
+                    </li>
                     <li>
                         Lista néhány édességgel. Ide le is írtam hogyan kell listát csinálni:
                         <code class="codeblock">
                             &lt;ul&gt;<br>
                             &lt;li&gt;ez egy számozatlan lista&lt;/li&gt;<br>
                             &lt;li&gt;minden elem előtt pöttyök vannak&lt;/li&gt;<br>
-                            &lt;li&gt; &lt;img src="kép.jpg" alt="A listaelemekbe BÁRMIT lehet rakni. Még képet is!"&gt; &lt;/li&gt;<br>
-                            &lt;/ul&gt;<br>
+                            &lt;li&gt;&lt;img src="kép.jpg" alt="A listaelemekbe BÁRMIT lehet rakni. Még képet is!"&gt;&lt;/li&gt;<br>
+                            &lt;/ul&gt;
                         </code>
                     </li>
                     <li>
                         Legalább 1 kép a lista valamelyik eleméről (vagy ha kedved van akkor az összesről).
                         Ide is írtam példát, hogy a képek hogyan működnek:
                         <code class="codeblock">
-                            &lt;img src="Elérési út a képhez." alt="Alternatív szöveg ha a kép valamiért nem tölt be."&gt;<br>
-                            &lt;img src="http://http.cat/404.jpg" alt="Cicás kép"&gt;<br>
-                            &lt;img src="./saját-kép.png" alt="Kép a gépről"&gt;<br>
+                            &lt;img src="Elérési út a képhez." alt="Alternatív szöveg ha a kép valamiért nem tölt be."&gt;<br><br>
+                            &lt;img src="http://http.cat/404.jpg" alt="Cicás kép"&gt;<br><br>
+                            &lt;img src="./saját-kép.png" alt="Kép a gépről"&gt;
                         </code>
                     </li>
                 </ul>
@@ -85,11 +88,20 @@
                 Utolsó, de nagyon fontos lépés: Ne felejts commit-olni! El ne vigye egy hóvihar a kódodat! ❄🌨❄
             </li>
             <li>
-                Bónusz: ha kíváncsi vagy milyen HTML elemek vannak és raknál még pár dolgot az oldalra,
-                nézz küröl <a href="https://www.w3schools.com/html/default.asp">w3schools-on</a>.
-                Itt van szinte minden elem, példákkal együtt.
+                Bónusz: Néhány kép lehet, hogy túl nagy vagy túl kicsi.
+                Adj nekik fix méretet úgy, hogy HTML-ben megadsz nekik egy szélességet!
+                <code class="codeblock">
+                    &lt;img src="./saját-kép.png" alt="" width="200px"&gt;<br>
+                    &lt;img src="./saját-kép.png" alt="" width="50%"&gt;<br>
+                </code>
+                Vagy esetleg keress más módokat a méretezésre vagy bővítsd az oldalt más, ismert elemekkel!
             </li>
         </ol>
+        <a href="../index.html">
+            <div class="card">
+                Vissza a naptárhoz
+            </div>
+        </a>
     </div>
     
     <script src="../js/snow.js"></script>

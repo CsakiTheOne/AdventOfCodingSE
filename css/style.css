@@ -24,14 +24,19 @@ p {
 }
 
 a {
+    color: #0f8a5e;
+}
+
+a.btn {
     padding: 2px;
     background-color: #0f8a5e;
+    color: white;
     border-radius: 4px;
     text-decoration: none;
     transition: all .2s ease-in-out;
 }
 
-a:hover {
+a.btn:hover {
     background-color: #cc231e;
 }
 
@@ -94,8 +99,6 @@ kbd:active {
 }
 
 .card {
-    display: inline-block;
-    margin: 8px;
     padding: 8px;
     background-color: #243224;
     border-radius: 8px;
@@ -104,6 +107,8 @@ kbd:active {
 }
 
 .day-card {
+    display: inline-block;
+    margin: 8px;
     min-width: 22%;
     transition: all .1s ease-in-out;
 }

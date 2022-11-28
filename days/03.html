@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Kezdjünk díszíteni!</h1>
+
+    <div class="container">
+        <p>
+            A télapó már tudja mit szeretsz, 🎅 de ilyen fehér alapon fekete weboldal még nem érdemel jutalmat szerinte. 😮
+            Szereti a díszes házakat ✨, fákat 🎄, szobákat 🔥 és igen, a weboldalakat is. 😅
+            Szóval kezdjünk díszíteni! 💎
+        </p>
+        <h2>CSS gyorstalpaló</h2>
+        <p>
+            A CSS egy olyan nyelv, amivel HTML elemek kinézetét 🎨, elrendezését ↔ tudjuk befolyásolni.
+            Ez egy CSS blokknak az átlagos felépítése:
+        </p>
+        <code class="codeblock">
+            kijelölő {<br>
+                &nbsp;&nbsp;tulajdonság1: érték;<br>
+                &nbsp;&nbsp;tulajdonság2: más érték;<br>
+            }<br><br>
+            /* ez a kijelölő az oldal body elemét jelöli ki */<br>
+            body {<br>
+                &nbsp;&nbsp;/* szín lehet angol szó, HEX szám vagy rgb() érték is */<br>
+                &nbsp;&nbsp;background-color: #121212;<br>
+            }
+        </code>
+        <p>
+            Fontos infó: a böngésző a CSS-t elég erősen gyorsítótárazza.
+            Szóval ha simán frissíted az oldalt, nem biztos, hogy látni fogsz minden változást.
+            Én ezzel a billentyűkombóval szoktam teljes újratöltést csinálni: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
+        </p>
+        <ol>
+            <li>Készíts egy <code>style.css</code> fájlt a weboldal mellé.</li>
+            <li>
+                Kösd össze a weboldalad ezzel a fájllal. Ezt úgy tudod megtenni,
+                hogy a weboldal <code>head</code> részébe a következő sort írod:
+                <code class="codeblock">&lt;link rel="stylesheet" href="style.css"&gt;</code>
+            </li>
+            <li>Adj az oldalnak valamilyen háttérszínt.</li>
+            <li>
+                Színezd át a szöveget az oldalon. Ha MINDEN elemet ki szeretnél jelölni, használd a <code>*</code> kijelölőt.
+                <details>
+                    <summary>❓ Segítég</summary>
+                    <code class="codeblock">
+                        * {<br>
+                            &nbsp;&nbsp;color: /* bármilyen szín, ami passzol a háttérhez */;<br>
+                        }
+                    </code>
+                </details>
+            </li>
+            <li>Nagyíts a szövegen. 🔎 Az öreg Télapó nem tud elolvasni minden apró betűt. CSS tulajdonság: <code>font-size</code></li>
+            <li>
+                Lehet, hogy egy picit a térközökön és elrendezésen is módosíthatunk. Könnyebb a szemnek, ha nincs minden összezsúfolva.
+                CSS-ben van külső <code>margin</code> és belső <code>padding</code> margó.
+                Próbáld ki, hogy mi a különbség úgy, hogy egy elemnek hattérszínt adsz és ezt a két tulajdonságot állíthatod.
+            </li>
+            <li>
+                Előfordul, hogy nem akarsz minden x típusú elemet kijelölni, csak egyet. Egy különlegeset.
+                Ezt úgy tudod megtenni, hogy azonosítót adsz neki. HTML-ben ez egy tulajdonság, CSS-ben pedig <code>#</code> a jelölése.
+                <p>
+                    A listád egyik eleme legyen más színű. Bónusz: mindegyik elen legyen olyan színű, ami arra az elemre passzol.
+                </p>
+                <code class="codeblock">
+                    &lt;li id="azonosító-neve"&gt;Oreo-s Milka&lt;/li&gt;<br><br>
+                    #azonosító-neve {<br>
+                    &nbsp;&nbsp;color: #53617d;<br>
+                    }
+                </code>
+            </li>
+            <li>
+                Bónusz: kísérletezz és díszíts!
+                <a class="btn" href="http://web.simmons.edu/~grabiner/comm244/weekthree/css-basic-properties.html">Itt van még pár egyszerű CSS tulajdonság. 😁</a>
+            </li>
+        </ol>
+        <a href="../index.html">
+            <div class="card">
+                Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script src="../js/snow.js"></script>
+    <script>const day = 3;</script>
+    <script src="../js/daychecker.js"></script>
+</body>
+</html>

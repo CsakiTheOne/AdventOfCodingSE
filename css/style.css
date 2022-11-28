@@ -40,6 +40,25 @@ a.btn:hover {
     background-color: #cc231e;
 }
 
+details {
+    transition: all .2s ease-in-out;
+}
+
+details[open] {
+    margin: 8px 0;
+    padding: 8px;
+    background-color: #53617d;
+    border-radius: 4px;
+}
+
+summary {
+    display: inline-block;
+    padding: 4px;
+    background-color: #53617d;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 code {
     padding: 4px;
     background-color: #241212;
@@ -73,7 +92,7 @@ li {
 
 kbd {
     display: inline-block;
-    padding: 2px;
+    padding: 2px 4px;
     color: black;
     background-color: #eee;
     border-radius: 2px;
@@ -86,6 +105,13 @@ kbd:active {
     background-color: #ddd;
     box-shadow: 0 0px 0 gray;
     transform: translateY(3px);
+}
+
+table {
+    padding: 8px;
+    background-color: #324832;
+    border-radius: 8px;
+    box-shadow: 0 3px 12px #000000aa;
 }
 
 .container {

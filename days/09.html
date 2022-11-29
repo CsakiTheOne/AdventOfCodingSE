@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modal.css">
+</head>
+
+<body>
+    <h1>Karácsonyi filmezés</h1>
+
+    <div class="container">
+        <p>
+            Jézuska hallotta, hogy karácsonykor szeretsz filmezni. 🎞
+            Azt is hallotta, hogy mozizó partnernek is van jelentkező. 😌
+            Talán a Jézuska tudja a legjobban, hogy jobb adni, mint kapni. 🎁
+            Kíváncsi rá, hogy milyen filmekkel fogod boldogítani a fiút,
+            aki ezekkel a feladatokkal boldogít téged. 😝
+        </p>
+        <p>
+            Tehát filmek listája lesz itt.
+            De nem csak egy sima <code>ul</code> elem és kész.
+            Ma összerakunk sok dolgot, amit eddig tanultál és pár trükköt is tanulhatsz.
+        </p>
+        <ol>
+            <li>Csinálj egy <code>h2</code> címet a filmes listához.</li>
+            <li>
+                Írj egy listát azokról a filmekről,
+                amiket tervezel megnézni a télen.
+            </li>
+            <li>
+                A lista minden eleme így nézzen ki:
+                <code class="codeblock">
+                    &lt;li&gt;<br>
+                    &nbsp;&lt;label&gt;<br>
+                    &nbsp;&nbsp;&lt;span&gt;FILM CÍME&lt;/span&gt;<br>
+                    &nbsp;&nbsp;&lt;input type="checkbox" class="modal"&gt;<br>
+                    &nbsp;&nbsp;&lt;div class="modal"&gt;<br>
+                    &nbsp;&nbsp;&nbsp;MODAL CONTENT<br>
+                    &nbsp;&nbsp;&lt;/div&gt;<br>
+                    &nbsp;&lt;/label&gt;<br>
+                    &lt;/li&gt;
+                </code>
+            </li>
+            <li>
+                Ahol a <code>MODAL CONTENT</code> feliratot látod,
+                oda rakj egy YouTube-ról másolt <code>iframe</code>-et,
+                ami a film előzetese. Legyen a beillesztet <code>iframe</code>
+                szélessége <code>100%</code>.
+            </li>
+            <li>
+                Na és most jöjjön a varázslat.
+                <label>
+                    <span class="btn">Kattints ide!</span>
+                    <input type="checkbox" class="modal">
+                    <div class="modal">
+                        <div class="container">
+                            <h3>Rejtett content!</h3>
+                            <ol>
+                                <li>
+                                    Csinálj egy új CSS fájlt <code>modal.css</code> névvel.
+                                    Csak hogy ne keveredjen össze a többi CSS kóddal, ami ide kell.
+                                </li>
+                                <li>Linkeld az oldalhoz ezt a CSS-t is.</li>
+                                <li>
+                                    írd bele ezt: <a href="../css/modal.css">modal.css</a>
+                                </li>
+                            </ol>
+                            <p>Kattints egy üres helyre a bezáráshoz!</p>
+                        </div>
+                    </div>
+                </label>
+            </li>
+        </ol>
+        <p>
+            Szóval egy kis trükkel megcsináltuk, hogy legyen az oldalon egy dialógus.
+            Mindezt mindenféle logikai kód nélkül. Csak HTML és CSS.
+            Ez elég durva dolognak számít ám. De hogyan működik?
+        </p>
+        <ol>
+            <li>
+                <label>
+                    trükk: Ez egy checkbox: <input type="checkbox">
+                    CSS-ben ki lehet jelölni <b>csak a bepipált</b> checkbox-okat.
+                </label>
+            </li>
+            <li>
+                <label>
+                    trükk: A <code>label</code> elemmel meg lehet oldani,
+                    hogy egy <code>input</code> elemet akkor is aktiváljunk,
+                    ha nem arra kattintunk. Próbáld ki!
+                    Kattints a checkbox körüli szövegre bárhova.
+                    <input type="checkbox">
+                </label>
+            </li>
+            <li>
+                trükk: CSS-ben teljesen el lehet tűntetni elemeket így:
+                <code>display: none;</code>
+            </li>
+            <li>
+                trükk: Egy checkbox lehet teljesen láthatatlan és
+                a <code>label</code> elemnek köszönhetően megoldható,
+                hogy így is bepipálható legyen más elemek segítségével.
+            </li>
+            <li>
+                trükk: CSS-ben ki lehet jelölni elemeket, amik más elemek mellett vannak.
+                Például egy <code>div</code>-et, ami egy bepipált checkbox mellett van.
+            </li>
+            <li>
+                trükk: Két elem lehet a kódban egymás mellett, de CSS-sel megoldható,
+                hogy az oldalon teljesen más helyeken helyezkedjenek el.
+            </li>
+        </ol>
+        <p>
+            Ez a néhány trükk és már meg is van a JavaScript nélküli dialógus! 🤯
+        </p>
+        <p>Bónusz feladatok:</p>
+        <ol>
+            <li>
+                Adj valami design-t a listaelemeknek, hogy látszódjon,
+                hogy kattinthatóak.
+            </li>
+            <li>
+                Kísérletezz a <code>modal.css</code> fájllal és szépítsd a
+                dialógust színekkel 🎨, díszekkel. ✨
+            </li>
+        </ol>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+
+    <script>const day = 9;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+
+</html>

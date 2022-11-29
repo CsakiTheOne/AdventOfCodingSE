@@ -1,0 +1,21 @@
+input[type='checkbox'].modal {
+    display: none;
+}
+
+div.modal {
+    /* működéshez kell */
+    display: none;
+    position: fixed;
+    /* méret */
+    width: 100vw;
+    height: 100vh;
+    /* pozíció */
+    top: 0;
+    left: 0;
+    /* egyéb */
+    background: #000;
+}
+
+input:checked + div.modal {
+    display: block;
+}

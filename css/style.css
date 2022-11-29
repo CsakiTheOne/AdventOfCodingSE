@@ -27,7 +27,7 @@ a {
     color: #0f8a5e;
 }
 
-a.btn {
+.btn {
     padding: 2px;
     background-color: #0f8a5e;
     color: white;
@@ -36,7 +36,7 @@ a.btn {
     transition: all .2s ease-in-out;
 }
 
-a.btn:hover {
+.btn:hover {
     background-color: #cc231e;
 }
 

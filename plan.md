@@ -10,11 +10,11 @@
 | 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal   |
 | 7   | favicon, betűtípus, ikonok     | ✅   |                          |
 | 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok |
-| 9   | noJS modal                     | 👌   | filmek, előzetesekkel    |
+| 9   | noJS modal                     | ✅   | filmek, előzetesekkel    |
 | 10  | horgony linkek, menü           | 👌   |                          |
 | 11  | transition tulajdonság         | 👌   |                          |
 | 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg       |
-| 13  | JS bemenet és alert            |     |                          |
+| 13  | JS bemenet és egyszerű múvelet |     |                          |
 | 14  |                                |     |                          |
 | 15  |                                |     |                          |
 | 16  |                                |     |                          |

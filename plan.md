@@ -12,7 +12,7 @@
 | 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok |
 | 9   | noJS modal                     | 👌   | filmek, előzetesekkel    |
 | 10  | horgony linkek, menü           | 👌   |                          |
-| 11  | transition tulajdonság         |     |                          |
+| 11  | transition tulajdonság         | 👌   |                          |
 | 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg       |
 | 13  | JS bemenet és alert            |     |                          |
 | 14  |                                |     |                          |
@@ -44,4 +44,4 @@
   - kedvenc (karácsonyi) dal(ok)
   - kedvenc (karácsonyi) filmek listája
 - funkciók
-  - sötét és világos téma
+  - ???

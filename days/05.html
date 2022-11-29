@@ -13,16 +13,125 @@
 
     <div class="container">
         <p>
-            Story
-        </p>
-        <p>
-            Feladat
+            Már csak a mai nap van. A Mikulás holnap hajnalban már az oldalad fogja vizslatni. 😬
+            Adjunk hozzá még pár apróságot és interagktív díszeket. 🎉
+            Mert egy weboldal mégis csak több, mint egy sima szöveges dokumentum. 😅
         </p>
         <ol>
-            <li>Feladat leírás</li>
+            <li>
+                A Télapó nem árt ha tudja, hogy jó kislány vagy és szeretsz másoknak adni is.
+                Rakj linkeket az oldalra, ami a Jézuska járat weboldalára és Facebook oldalára vezet.
+            </li>
+            <li>
+                A linkeket lásd el <code>btn</code> nevű osztállyal. Valahogy így fog kinézni:
+                <code class="codeblock">
+                    &lt;a href="link" class="btn"&gt;Jézuska járat oldala&lt;/a&gt;
+                </code>
+                Ez azért jó, mert CSS-ben így könnyen ki tudodjelölni csak ezeket a linkeket.
+                <code class="codeblock">
+                    .btn {<br>
+                    &nbsp;&nbsp;text-decoration: none;<br>
+                    &nbsp;&nbsp;/* ... */<br>
+                    }
+                </code>
+            </li>
+            <li>
+                CSS-sel próbáld meg ezeket a linkeket úgy dísziteni, hogy gomb kinézetük legyen.
+                (<code>text-decoration</code> tulajdonsággal el tudod tűntetni a vonalat.)
+            </li>
+            <li>
+                Egy gomb az egy interaktív elem. Hát csináljuk meg, hogy interaktívnak is nézzen ki!
+                CSS-ben bármilyen kijelölő mellé odaírhatod a <code>:hover</code> kulcsszót,
+                amivel kijelölöd az adott elemet <b>csak akkor ha az egér fölötte van.</b>
+                Változtasd meg a gomb háttér vagy szöveg színét és csináld meg,
+                hogy kicsit legyen nagyobb csak akkor, ha a felhasználó ráviszi az egeret.
+                <code class="codeblock">
+                    .btn {<br>
+                    &nbsp;&nbsp;/* ezt Ádám elmagyarázza ha kíváncsi vagy, de kell a transform tulajdonság működéséhez. */<br>
+                    &nbsp;&nbsp;display: inline-block;<br>
+                    &nbsp;&nbsp;text-decoration: none;<br>
+                    &nbsp;&nbsp;/* ... */<br>
+                    }<br><br>
+                    .btn:hover {<br>
+                        &nbsp;&nbsp;transform: scale(1.1, 1.1);<br>
+                        &nbsp;&nbsp;/* ... */<br>
+                    }
+                </code>
+                <div class="card day-card">
+                    Példa
+                </div>
+            </li>
+            <li>
+                Használd a <code>:hover</code> kulcsszót és díszíts más elemeket is, ahol jónak látod.
+                Megpróbálhatsz kis fényeket csinálni az oldalra, amikre ha ráviszed az egeret, fényesebbek lesznek.
+                <code class="codeblock">
+                    HTML:<br>
+                    &lt;div class="light red"&gt;&lt;/div&gt;<br><br>
+                    CSS:<br>
+                    .light {<br>
+                        &nbsp;&nbsp;display: inline-block;<br>
+                        &nbsp;&nbsp;width: 16px;<br>
+                        &nbsp;&nbsp;height: 16px;<br>
+                        &nbsp;&nbsp;border-radius: 50%;<br>
+                    }<br>
+                    .light.red {<br>
+                        &nbsp;&nbsp;background-color: #800;<br>
+                        &nbsp;&nbsp;box-shadow: 0 0 16px red;<br>
+                    }<br>
+                    .light.red:hover {<br>
+                        &nbsp;&nbsp;background-color: red;<br>
+                        &nbsp;&nbsp;box-shadow: 0 0 32px red;<br>
+                    }<br>
+                </code>
+                <div class="light red"></div>
+                <div class="light green"></div><br>
+                Az árnyékoknál meg kell adni először egy offset-et (ez az első két szám), elmosódás méretet (3. szám) és egy színt.
+                Ha valaminek rendes árnyékot szeretnél adni, jól bevált módszer, ha valamennyire áttetsző feketét használsz.
+                Én így árnyékolom az oldalon a kártyákat:
+                <code class="codeblock">
+                    <pre>
+box-shadow: 0 3px 12px #000000aa;
+            ^ ^     ^       ^
+          offset elmosódás szín</pre>
+                </code>
+            </li>
+            <li>
+                Gomboknál nem csak föléjük lehet vinni az egeret, hanem meg is lehet nyomni őket.
+                Ki lehet jelölni elemek benyomott állapotát is az <code>:active</code> kulcsszóval.
+                Jelöld ki a gombokat ezzel is és a méretük álljon vissza az eredetire, amíg le vannak nyomva.
+                <code class="codeblock">transform: scale(1, 1);</code>
+            </li>
+            <li>
+                Fejezd be az oldal díszítését tetszés szerint. 😁
+            </li>
         </ol>
         <p>
-            UI:
+            Fun fact: Az <code>:active</code> kulcsszóval csináltam ezeket az aranyos, nyomkodható kombokat is:<br>
+            <kbd>E</kbd> <kbd>S</kbd> <kbd>Z</kbd> <kbd>T</kbd> <kbd>I</kbd>
+            <details>
+                <summary>Nyomkodható gombok kódja</summary>
+                <code class="codeblock">
+                    <pre>
+kbd {
+    display: inline-block;
+    padding: 2px 4px;
+    min-width: 16px;
+    color: black;
+    background-color: #eee;
+    border-radius: 2px;
+    box-shadow: 0 3px 0 gray;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+kbd:active {
+    background-color: #ddd;
+    box-shadow: 0 0px 0 gray;
+    transform: translateY(3px);
+}</pre>
+                </code>
+            </details>
         </p>
         <a href="../index.html">
             <div class="card">

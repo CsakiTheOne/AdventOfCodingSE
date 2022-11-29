@@ -60,7 +60,7 @@ summary {
     cursor: pointer;
 }
 
-code {
+code, pre {
     padding: 4px;
     background-color: #241212;
     border-radius: 4px;
@@ -94,12 +94,14 @@ li {
 kbd {
     display: inline-block;
     padding: 2px 4px;
+    min-width: 16px;
     color: black;
     background-color: #eee;
     border-radius: 2px;
     box-shadow: 0 3px 0 gray;
     cursor: pointer;
     user-select: none;
+    text-align: center;
 }
 
 kbd:active {
@@ -156,4 +158,37 @@ table {
     background-color: #485248;
     transform: scale(1.1, 1.1);
     z-index: 3;
+}
+
+.day-card:active {
+    background-color: #485248;
+    transform: scale(1, 1);
+    z-index: 3;
+}
+
+.light {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.light.red {
+    background-color: #800;
+    box-shadow: 0 0 8px red;
+}
+
+.light.red:hover {
+    background-color: red;
+    box-shadow: 0 0 16px red;
+}
+
+.light.green {
+    background-color: #480;
+    box-shadow: 0 0 8px greenyellow;
+}
+
+.light.green:hover {
+    background-color: greenyellow;
+    box-shadow: 0 0 16px greenyellow;
 }

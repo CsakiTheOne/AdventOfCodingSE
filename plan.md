@@ -7,7 +7,7 @@
 | 3   | CSS: tag kij., színek, display | ✅   | alap díszítés a Mikulásnak   |
 | 4   | iframe, média                  | ✅   | zene / videó                 |
 | 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése          |
-| 6   | linkek, gyakorlás, kívánságok  | 👌   | Jézuskának másik oldal kell  |
+| 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal kell  |
 | 7   | favicon, betűtípus, ikonok     | 👌   |                              |
 | 8   | hangfájlok beillesztése        | 👌   | kedvenc karácsonyi dal(ok)   |
 | 9   | noJS modal                     |     | filmek listája előzetesekkel |

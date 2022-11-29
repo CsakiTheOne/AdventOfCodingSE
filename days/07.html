@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/snow-circle-32.png" type="image/x-icon">
+    <title>7. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <h1>Az apró részletek</h1>
+
+    <div class="container">
+        <p>
+            Azok az igazán szép alkotások, amikor a készítő az apró részletekre is figyel. 🎨
+            Az open-world játékokban utcákon poszterek 🖼, festményeken apró tárgyak 🖌, weboldalakon betűtípus 🔠 és kis ikonok 💠...
+        </p>
+        <ol>
+            <li>
+                Jó lenne valami menő betűtípus, ami jobban illik a témához vagy könnyebben olvasható.
+                Google-nek egész jó betűtípusai vannak. <a href="https://fonts.google.com" class="btn">Keress párat, ami tetszik 🔠</a>
+            </li>
+            <li>
+                A Google oldalán ha kiválasztasz egy betűtípust, meg is mutatja hogyan tudod azt egy weboldalnál használni.
+                Importálhatod CSS-be vagy link-elheted HTML <code>head</code> részébe.
+                Majd CSS-ben a megfelelő kijelölőkkel és a <code>font-family</code> tulajdonsággal beállíthatod.
+                Állítsd be te is a szimpi betűtípusokat az oldalra.
+                Én úgy csináltam, hogy minden Roboto, de a címeket felülírtam egy karácsonyossal.
+                Így szépen olvasható a szöveg és a címek passzolnak a témához.
+            </li>
+            <li>
+                Észrevetted, hogy a weboldalaknak van kis ikonja, ami látszik a böngésző tetején? Az a favicon.
+                Állíts be te is egy tetszetős ikont az oldaladnak. Ez lehet bármilyen kép.
+                Én ezt írtam ennek az oldalnak a <code>head</code> részébe:
+                <code class="codeblock">
+                    &lt;link rel="shortcut icon" href="../images/snow-circle-32.png" type="image/x-icon" /&gt;
+                </code>
+            </li>
+            <li>
+                Google-nek a betűtípusos oldalán nem csak betűtípusok, <a href="https://fonts.google.com/icons">hanem ikonok is vannak</a>.
+                Egészítsd ki az oldalad ikonokkal, ahol jónak látod. Pl. a <code>h2</code>-es címeknél.
+                A kívánságlistához akár egy ilyet:
+                <span class="material-symbols-outlined">redeem</span> vagy <span class="material-symbols-outlined">format_list_bulleted</span><br>
+                Ajánlom, hogy ha kiválasztasz egy ikont, akkor a "Static icon font" kategóriát nézd, azt könnyű a weboldalba rakni.
+                Csak ennyi kell az oldal <code>head</code> részébe:
+                <code class="codeblock">
+                    &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /&gt;
+                </code>
+                és maga az ikon bárhová az oldalra:
+                <code class="codeblock">
+                    &lt;span class="material-symbols-outlined"&gt;format_list_bulleted&lt;/span&gt;
+                </code>
+                <div class="center-children">
+                    <div class="card image-card"><img src="../images/static-icon-font.png" alt=""></div>
+                </div>
+            </li>
+        </ol>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script>const day = 7;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

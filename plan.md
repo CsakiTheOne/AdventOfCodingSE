@@ -27,8 +27,8 @@
 | 23  |                                |     |                          |
 | 24  |                                |     |                          |
 
-- ✅ oldal elkészítve
-- 👌 ez a téma biztos és jó helyen van
+- ✅ kész
+- 👌 téma megvan
 
 ## Megjegyzések
 

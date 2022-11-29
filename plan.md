@@ -5,7 +5,7 @@
 | 1   | GitHub repo előkészítés        | ✅   | programozás                  |
 | 2   | egyszerű HTML: listák és képek | ✅   | édesség lista Mikulásra      |
 | 3   | CSS: tag kij., színek, display | ✅   | alap díszítés a Mikulásnak   |
-| 4   | iframe, média                  | 👌   | térkép és zene / videó       |
+| 4   | iframe, média                  | ✅   | zene / videó                 |
 | 5   | CSS: bonyolultabb kij.&tulajd. | 👌   | díszítés befejezése          |
 | 6   | linkek, gyakorlás, kívánságok  | 👌   | Jézuskának másik oldal kell  |
 | 7   | favicon, betűtípus, ikonok     | 👌   |                              |

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Videó kölcsönzés</h1>
+
+    <div class="container">
+        <p>
+            Van már egy weboldalad és már nem is néz ki rosszul. 😌
+            Viszont, hogy teljes legyen a téli hangulat, valami még hiányzik... Zene! 🎶
+        </p>
+        <p>
+            YouTube-on és pár egyéb weboldalon talán láthattad már, hogy mikor meg szeretnél osztani valamit,
+            van egy úgynevezett "beágyazás" lehetőség.
+        </p>
+        <div class="center-children">
+            <div class="card image-card">
+                <img src="../images/embedding1.png" alt="">
+            </div>
+            <div class="card image-card">
+                <img src="../images/embedding2.png" alt="">
+            </div>
+        </div>
+        <ol>
+            <li>Rakj az oldalra egy karácsonyi dalt a YouTube vagy Spotify beágyazási lehetőségével.</li>
+            <li>
+                Nézd át, hogy a beillesztett iframe elemben milyen tulajdonságok vannak.
+                Állítsd be ezek segítségével az elem méretét és működését.
+            </li>
+        </ol>
+        <div class="card">
+            <h3>❄ Egy szép karácsonyi dal ❄</h3>
+            <div class="card image-card" style="width: 100%;">
+                <iframe width="100%" height="360" src="https://www.youtube.com/embed/BX8M09NBZ3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <p>
+            Holnap be kell fejezni ezt a kis oldalt, szóval majd mutatok majd pár dolgot, amivel tökéletesítheted a díszítést. 😌
+            De már most adok is valamit, ami hatalmas segítség lehet a szép oldalhoz...
+        </p>
+        <div class="card">
+            Két fájl, amit be kell raknod a repo-dba:
+            <a href="../css/snow.css" class="btn">show.css</a>
+            <a href="../js/snow.js" class="btn">snow.js</a><br>
+            (A css fájl elég hosszú, gyorsan ki tudod jelölni a <kbd>Ctrl</kbd>+<kbd>A</kbd> billentyűkombóval.)
+        </div>
+        <ol>
+            <li>Linkeld a <code>snow.css</code>-t is az oldaladhoz (ugyanúgy ahogy a <code>style.css</code>-sel tetted).</li>
+            <li>
+                Futtads le a <code>snow.js</code>-t az oldalon.
+                Ezt úgy tudod megtenni, hogy a <code>body</code>-n belülre valahová beírod ezt a sort:
+                <code class="codeblock">
+                    &lt;script src="snow.js"&gt;&lt;/script&gt;
+                </code>
+                (A JavaScript kódot álltalában a body allján szokták futtatni, így biztos betöltött az oldal mire a kód elindul.)
+            </li>
+        </ol>
+        <p>
+            Esik a hóó! 🌨❄🌨❄🌨❄
+        </p>
+        <a href="../index.html">
+            <div class="card">
+                Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script src="../js/snow.js"></script>
+    <script>const day = 4;</script>
+    <script src="../js/daychecker.js"></script>
+</body>
+</html>

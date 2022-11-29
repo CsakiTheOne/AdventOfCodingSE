@@ -41,11 +41,12 @@ a.btn:hover {
 }
 
 details {
+    margin: 16px 0;
     transition: all .2s ease-in-out;
 }
 
 details[open] {
-    margin: 8px 0;
+    margin: 16px 0;
     padding: 8px;
     background-color: #53617d;
     border-radius: 4px;
@@ -68,12 +69,12 @@ code {
 
 code.codeblock {
     display: block;
-    margin: 8px 0;
+    margin: 16px 0;
     padding: 8px;
 }
 
 ol, ul {
-    margin: 8px 0;
+    margin: 16px 0;
     background-color: #243224;
     border-radius: 8px;
     z-index: 2;
@@ -121,6 +122,7 @@ table {
 .center-children {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -132,9 +134,20 @@ table {
     z-index: 2;
 }
 
+.image-card {
+    display: inline-block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.image-card > * {
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
 .day-card {
     display: inline-block;
-    margin: 8px;
+    margin: 16px;
     min-width: 22%;
     transition: all .1s ease-in-out;
 }

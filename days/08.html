@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Zene füleimnek</h1>
+
+    <div class="container">
+        <p>
+            A 4. napon Mikulásnak a weboldalra raktunk be zenét 🎶, emlékszel? Most is fogunk, csak egy kicsit máshogy:
+        </p>
+        <audio controls>
+            <source src="../sounds/carol-of-the-bells.mp3" type="audio/mpeg">
+            Ez a böngésző nem támogatja a zenelejátszást...
+        </audio>
+        <a href="https://youtu.be/EKkzbbLYPuI"><img src="../images/youtube.png" alt=""></a>
+        <ol>
+            <li>Keress egy vagy több zenét, amit szeretnél az oldalra rakni</li>
+            <li>
+                Töltsd le a zené(ke)t valamilyen netes eszközzel.
+                (Én csak beírtam keresőbe, hogy "youtube to mp3" és amelyik működött, azt használtam 😄)<br>
+                <b>Ja igen, fontos, hogy mp3 legyen.</b>
+            </li>
+            <li>Csinálj az oldalon egy "Zenesarok" <code>h2</code> címet.</li>
+            <li>
+                Jöhet a zene!
+                <code class="codeblock">
+                    &lt;audio controls&gt;<br>
+                    &nbsp;&nbsp;&lt;source src="ZENE FÁJL ELÉRÉSI ÚTJA" type="audio/mpeg"&gt;<br>
+                    &lt;/audio&gt;
+                </code>
+            </li>
+            <li>
+                Rakj a zene mellé, alá vagy fölé egy YouTube és Spotify ikont, amik a megfelelő oldalon a zenéhez vezetnek.
+                <code>a</code> tag-be tudsz képet rakni, így tudod megcsinálni, hogy egy ikon kattintható legyen.
+                <p>
+                    <a href="https://materialdesignicons.com/" class="btn">Material Design Icons</a> oldaláról ajánlom ismét az ikon keresgélést.
+                </p>
+            </li>
+        </ol>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script>const day = 8;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

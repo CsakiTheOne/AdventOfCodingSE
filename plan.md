@@ -9,7 +9,7 @@
 | 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése      |
 | 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal   |
 | 7   | favicon, betűtípus, ikonok     | ✅   |                          |
-| 8   | hangfájlok beillesztése        | 👌   | kedvenc karácsonyi dalok |
+| 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok |
 | 9   | noJS modal                     | 👌   | filmek, előzetesekkel    |
 | 10  | horgony linkek, menü           | 👌   |                          |
 | 11  | transition tulajdonság         |     |                          |

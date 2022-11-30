@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/11.css">
+</head>
+<body>
+    <h1>Smooth stuff</h1>
+
+    <div class="container">
+        <p>
+            Ma egy nyúlfarknyi feladatunk lesz csak. 🐇
+            Egy CSS tulajdonságot mutatok, amivel sokmindennek szebb animációt lehet varázsolni. ✨
+        </p>
+        <ol>
+            <li>
+                Egy pár helyen tuti használtad a <code>:hover</code> és <code>:active</code> kulcsszavakat.
+                Ha még nem, használd pár interaktív elemen az oldalon.
+                Legyen a gomboknak valamije más ha ráviszed az egeret vagy kattintasz.
+            </li>
+            <li>
+                Az elemeken, amiknek van <code>:hover</code> vagy <code>:active</code> kijelölője,
+                rakd tárjuk a <code>transition</code> tulajdonságot a sima kijelölős változatára valahogy így:
+                <code class="codeblock">
+                    .példa {<br>
+                        &nbsp;&nbsp;/* ... */<br>
+                        &nbsp;&nbsp;transition: .2s all ease-in-out;<br>
+                    }<br><br>
+                    .példa:hover {<br>
+                        &nbsp;&nbsp;/* ... */<br>
+                    }
+                </code>
+                <p>Vigyázz, hogy ne a <code>:hover</code>-es vagy <code>:active</code>-os kijelölőre rakd ezt a tulajdonságot!</p>
+                <p>Ez a tulajdonság úgy működik, hogy 3 paraméter segítségével animálja az elemet az átmenetei között:</p>
+                <ul class="sublist">
+                    <li>Ez az idő, hogy meddig tartson az animáció: <code>.2s</code> (0.2 másodperc)</li>
+                    <li>A második paraméter azt jelöli, hogy melyik tulajdonságot animálja: <code>all</code> (az összeset)</li>
+                    <li>Az utolsó szó pedig egy <a href="https://easings.net/">easing függvény</a>: <code>ease-in-out</code></li>
+                </ul>
+            </li>
+            <li>
+                Kísérletezz az idővel és hogy melyik elemre hogyan hat, amikor így viszed rá az egeret.
+            </li>
+        </ol>
+        <p>
+            Ezen az oldalon ki is próbálhatod mennyivel jobb az átmenetes animáció a kódrészleteken.
+        </p>
+        <p>
+            Tudom, kicsit ez rövid volt, de sok díszítési lehetőséget ad. Holnap viszont kezdődik az igazi izgalom:
+            <a class="btn" href="https://youtu.be/aXOChLn5ZdQ">JavaScript</a>
+        </p>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script>const day = 11; const debug = true;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

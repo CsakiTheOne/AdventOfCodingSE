@@ -1,0 +1,7 @@
+* {
+    transition: .2s all ease-in-out;
+}
+
+code:hover {
+    filter: brightness(3);
+}

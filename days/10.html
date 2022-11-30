@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>There is no MENU without Me 'N' U 😉</h1>
+
+    <div class="container">
+        <a href="#vege">Görgetés a feladat végére</a>
+        <p>
+            Bővül szépen a kis oldal és még fog is egy pár dologgal. 🧩
+            Valahogy el kéne igazodni a sok lista, zene és egyéb csodák között...
+            De hát van az oldal tetején egy menü! A 6. napon csináltad, emlékszel?
+            Na azt most használni fogjuk.
+        </p>
+        <ol>
+            <li>
+                Az oldalon lévő összes <code>h2</code> elemre rakj egy tetszőleges azonosítót.
+                Lehet angolul vagy magyarul, mindegy. Csak ne legyen benne szóköz.
+                <details>
+                    <summary>❓ Hogy is kell?</summary>
+                    <code class="codeblock">
+                        &lt;h2 id="karacsonyi-filmek"&gt;Karácsonyi filmek&lt;/h2&gt;
+                    </code>
+                </details>
+            </li>
+            <li>A menühöz adj új elemeket. Egyet mindegyik <code>h2</code> elemhez.</li>
+            <li>
+                A linkek <code>href</code> tulajdonságába írd bele a megfelelő azonosítókat így:
+                <code class="codeblock">
+                    &lt;a href="#karacsonyi-filmek"&gt;Karácsonyi filmek&lt;/a&gt;
+                </code>
+            </li>
+            <li>Próbáld ki! Elég jó, nem? Rákattintasz a menüre és rögtön odaugrik az oldal.</li>
+            <li>
+                Viszont... Jézuska nagyon szereti az animációkat és az átmeneteket...
+                Szóval el kéne kezdeni ezeket belerakni az oldalba...
+                A CSS-ben jelöld ki az egész <code>html</code> elemet és állítsd be rajta ezt:
+                <code class="codeblock">
+                    scroll-behavior: smooth;
+                </code>
+            </li>
+            <li>Adj az oldalhoz még egy tetszőleges szekciót, ahová bármit rakhatsz vagy írhatsz és azt is rakd a menübe.</li>
+        </ol>
+        <p>
+            Na most milyen? Szép, smooth görgetés.
+        </p>
+        <p>
+            Be kell osztanom a feladatokat, hogy ne jussunk túl hamar a JavaScript-hez.
+            Azt mondtad később leszel ráérősebb, szóval ma csak ennyit akartam mutatni.
+            Viszont holnap telerakjuk animációkkal a már interaktív (<code>:hover</code> és <code>:active</code>) elemeket.
+        </p>
+        <p>
+            Erre az oldalra is raktam amúgy egy példát, hogy hogyan kell működnie a horgony linkeknek és ennek a szép görgetésnek.
+            Hogy tuti görgethető legyen még akkor is ha nagy képernyőn nyitod meg a weboldalt,
+            iderakok egy zenét, amit mostanában sokat hallgatok.
+        </p>
+        <div class="card image-card" style="width: 100%;">
+            <iframe src="https://open.spotify.com/embed/track/2mueIraiRiGExPHAS0fkho?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <h2 id="vege">Feladat vége</h2>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script>const day = 10; const debug = true;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

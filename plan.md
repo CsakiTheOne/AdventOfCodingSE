@@ -1,31 +1,31 @@
 # Terv és beosztás
 
-| 📅   | Tananyag                       | ?   | Téma                     |
-| --- | ------------------------------ | --- | ------------------------ |
-| 1   | GitHub repo előkészítés        | ✅   | programozás              |
-| 2   | egyszerű HTML: listák és képek | ✅   | édesség lista Mikulásra  |
-| 3   | CSS: tag kij., színek, display | ✅   | alap díszítés Mikulásnak |
-| 4   | iframe, média                  | ✅   | zene / videó             |
-| 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése      |
-| 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal   |
-| 7   | favicon, betűtípus, ikonok     | ✅   |                          |
-| 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok |
-| 9   | noJS modal                     | ✅   | filmek, előzetesekkel    |
-| 10  | horgony linkek, menü           | ✅   |                          |
-| 11  | transition tulajdonság         | 👌   |                          |
-| 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg       |
-| 13  | JS bemenet és egyszerű múvelet |     |                          |
-| 14  |                                |     |                          |
-| 15  |                                |     |                          |
-| 16  |                                |     |                          |
-| 17  |                                |     |                          |
-| 18  |                                |     |                          |
-| 19  |                                |     |                          |
-| 20  |                                |     |                          |
-| 21  |                                |     |                          |
-| 22  |                                |     |                          |
-| 23  |                                |     |                          |
-| 24  |                                |     |                          |
+| 📅   | Tananyag                       | ?   | Téma                            |
+| --- | ------------------------------ | --- | ------------------------------- |
+| 1   | GitHub repo előkészítés        | ✅   | programozás                     |
+| 2   | egyszerű HTML: listák és képek | ✅   | édesség lista Mikulásra         |
+| 3   | CSS: tag kij., színek, display | ✅   | alap díszítés Mikulásnak        |
+| 4   | iframe, média                  | ✅   | zene / videó                    |
+| 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése             |
+| 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal          |
+| 7   | favicon, betűtípus, ikonok     | ✅   |                                 |
+| 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok        |
+| 9   | noJS modal                     | ✅   | filmek, előzetesekkel           |
+| 10  | horgony linkek, menü           | ✅   |                                 |
+| 11  | transition tulajdonság         | 👌   |                                 |
+| 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg              |
+| 13  | JS bemenet és egyszerű művelet | 👌   | Ajándék méret, csomagoló papír  |
+| 14  | JS listák és sort()            |     | Jézuska névsora összekeveredett |
+| 15  |                                |     |                                 |
+| 16  |                                |     |                                 |
+| 17  |                                |     |                                 |
+| 18  |                                |     |                                 |
+| 19  |                                |     |                                 |
+| 20  |                                |     |                                 |
+| 21  |                                |     |                                 |
+| 22  |                                |     |                                 |
+| 23  |                                |     |                                 |
+| 24  |                                |     |                                 |
 
 - ✅ kész
 - 👌 téma megvan

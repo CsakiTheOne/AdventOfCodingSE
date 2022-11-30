@@ -14,10 +14,10 @@
 | 10  | horgony linkek, menü           | ✅   |                                |
 | 11  | transition tulajdonság         | ✅   |                                |
 | 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg             |
-| 13  | JS bemenet és egyszerű művelet | 👌   | Ajándék méret, csomagoló papír |
-| 14  | JS listák, osztályok, sort     |     | névsor átlag szerint           |
-| 15  |                                |     |                                |
-| 16  |                                |     |                                |
+| 13  | JS bemenet és egyszerű művelet | 👌   | ajándék méret, csomagoló papír |
+| 14  | Random splash szöveg           |     |                                |
+| 15  | JS osztályok                   |     | emberek tárolása átlaggal      |
+| 16  | JS listák, rendezés            |     | ki érdemel ajándékot?          |
 | 17  |                                |     |                                |
 | 18  |                                |     |                                |
 | 19  |                                |     |                                |

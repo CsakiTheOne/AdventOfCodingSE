@@ -24,4 +24,7 @@ setInterval(() => {
     const minutes = new Date().getMinutes();
     const seconds = new Date().getSeconds();
     countdownTimer.innerText = `${23 - hours}:${59 - minutes}:${59 - seconds}`;
+    if (hours == 23 && minutes == 59 && seconds > 58) {
+        window.location = window.location;
+    }
 }, 1000);

@@ -1,34 +1,31 @@
 # Terv és beosztás
 
-| 📅   | Tananyag                       | ?   | Téma                           |
-| --- | ------------------------------ | --- | ------------------------------ |
-| 1   | GitHub repo előkészítés        | ✅   | programozás                    |
-| 2   | egyszerű HTML: listák és képek | ✅   | édesség lista Mikulásra        |
-| 3   | CSS: tag kij., színek, display | ✅   | alap díszítés Mikulásnak       |
-| 4   | iframe, média                  | ✅   | zene / videó                   |
-| 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése            |
-| 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal         |
-| 7   | favicon, betűtípus, ikonok     | ✅   |                                |
-| 8   | hangfájlok beillesztése        | ✅   | kedvenc karácsonyi dalok       |
-| 9   | noJS modal                     | ✅   | filmek, előzetesekkel          |
-| 10  | horgony linkek, menü           | ✅   |                                |
-| 11  | transition tulajdonság         | ✅   |                                |
-| 12  | JS alapok: let, getElement     | 👌   | egy kis easter-egg             |
-| 13  | JS bemenet és egyszerű művelet | 👌   | ajándék méret, csomagoló papír |
-| 14  | Random splash szöveg           |     |                                |
-| 15  | JS osztályok                   |     | emberek tárolása átlaggal      |
-| 16  | JS listák, rendezés            |     | ki érdemel ajándékot?          |
-| 17  |                                |     |                                |
-| 18  |                                |     |                                |
-| 19  |                                |     |                                |
-| 20  |                                |     |                                |
-| 21  |                                |     |                                |
-| 22  |                                |     |                                |
-| 23  |                                |     |                                |
-| 24  |                                |     |                                |
-
-- ✅ kész
-- 👌 téma megvan
+| 📅   | Tananyag                       | ?   | Téma                   |
+| --- | ------------------------------ | --- | ---------------------- |
+| 1   | GitHub repo előkészítés        | ✅   | programozás            |
+| 2   | egyszerű HTML: listák és képek | ✅   | édesség lista          |
+| 3   | CSS: tag kij., színek, display | ✅   | alap díszek Mikulásnak |
+| 4   | iframe, média                  | ✅   | zene / videó           |
+| 5   | CSS: bonyolultabb kij.&tulajd. | ✅   | díszítés befejezése    |
+| 6   | linkek, gyakorlás, kívánságok  | ✅   | Jézuskának másik oldal |
+| 7   | favicon, betűtípus, ikonok     | ✅   |                        |
+| 8   | hangfájlok beillesztése        | ✅   | kedvenc karis dalok    |
+| 9   | noJS modal                     | ✅   | filmek, előzetesekkel  |
+| 10  | horgony linkek, menü           | ✅   |                        |
+| 11  | transition tulajdonság         | ✅   |                        |
+| 12  | JS alapok: let, getElement     |     | egy kis easter-egg     |
+| 13  | JS bemenet, egyszerű művelet   |     | aji méret, csomagolás  |
+| 14  | Random splash szöveg           |     |                        |
+| 15  | JS osztályok                   |     | emberek és átlaguk     |
+| 16  | JS listák, rendezés            |     | ki érdemel ajándékot?  |
+| 17  |                                |     |                        |
+| 18  |                                |     |                        |
+| 19  |                                |     |                        |
+| 20  |                                |     |                        |
+| 21  |                                |     |                        |
+| 22  |                                |     |                        |
+| 23  |                                |     |                        |
+| 24  |                                |     |                        |
 
 ## Megjegyzések
 

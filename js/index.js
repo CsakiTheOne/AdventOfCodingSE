@@ -1,4 +1,6 @@
 function secretMessage() {
+    if (today > 24) return;
+
     const messages = [
         'Végre December! ❄',
         'Illetve amikor még ezt írom November van... December előtt kb. egy héttel kezdtem neki.',

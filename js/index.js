@@ -16,3 +16,12 @@ function secretMessage() {
 }
 
 secretMessage();
+
+const countdownTimer = document.getElementById('countdown');
+
+setInterval(() => {
+    const hours = new Date().getHours();
+    const minutes = new Date().getMinutes();
+    const seconds = new Date().getSeconds();
+    countdownTimer.innerText = `${23 - hours}:${59 - minutes}:${59 - seconds}`;
+}, 1000);

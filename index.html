@@ -11,6 +11,8 @@
 <body>
     <h1>Advent of Coding</h1>
 
+    <h2 id="countdown">...</h2>
+
     <div class="container center-children">
         <script>
             const today = new Date().getDate();
@@ -20,7 +22,7 @@
                     document.writeln(
                         `
                         <div class="card day-card" style="cursor: not-allowed;">
-                            <h1>🔒</h1>
+                            <h1>🔒 ${i}</h1>
                         </div>
                         `
                     );

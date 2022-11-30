@@ -161,13 +161,13 @@ table {
 
 .day-card:hover {
     background-color: #485248;
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
     z-index: 3;
 }
 
 .day-card:active {
     background-color: #485248;
-    transform: scale(1, 1);
+    transform: scale(.95, .95);
     z-index: 3;
 }
 

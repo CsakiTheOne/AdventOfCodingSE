@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12. nap</title>
+    <link rel="stylesheet" href="../css/snow.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>JavaScript</h1>
+
+    <div class="container">
+        <p>
+            Na most kezdődnek az igazi izgalmak 😄 Tegnap mutattam egy paródia videót a JavaScipt-ről,
+            de ideje, hogy rendesen megismerkedj ezzel a csodás nyelvvel. ✨
+        </p>
+        <div class="card image-card" style="width: 100%;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/DHjqpvDnNGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p>
+            Kezdjünk el ismerkedni a nyelvvel.
+        </p>
+        <ol>
+            <li>Csinálj egy <code>index.js</code> fájlt a repo-dba.</li>
+            <li>
+                Kössük rá az oldalra. De hogyan?
+                <p>
+                    JS fájlt lehet futtatni az oldal betöltése előtt, közben vagy után. Attól függ hol töltjük be a fájlt.
+                    Általában az oldal alján érdemes, így csak akkor fut a kódunk, amikor az oldalunk már betöltött.
+                </p>
+                <code class="codeblock">
+                    &nbsp;&nbsp;&lt;-- oldal tartalma fölül --&gt;<br>
+                    &nbsp;&nbsp;&lt;script src="index.js"&gt;&lt;/script&gt;<br>
+                    &lt;/body&gt;
+                </code>
+            </li>
+            <li>
+                Egy kis easter-egg-et fogunk elrejteni az oldalon, amit nem lát mindenki.
+                Ha megnyomod a <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> vagy (<kbd>Fn</kbd> +) <kbd>F12</kbd>
+                billentyűkombót akkor előjönnek a fejlesztői eszközök. Nyisd meg és keresd meg a konzolt.
+                (Nagy szöveges felület, ahová lehet írni.)
+            </li>
+            <li>
+                Na ide fogunk kiírni valamit. Azt teljesen rádbízom, hogy mit, így meglepetés lesz Jázuskának és nekem is. 😄
+                Na de hogyan? Előbb tanuljuk meg a JavaScript alapjait. Menj vissza az <code>index.js</code> fájlba.
+            </li>
+        </ol>
+        <p>
+            A JS már közelebb van a többi programnyelvhez. Szokatlan lesz így, hogy a PHP volt neked az első, de szerintem nem lesz nehéz.
+        </p>
+        <div class="center-children">
+            <div style="width: 50%;">
+                <h3>Hasonlóságok</h3>
+                <ul>
+                    <li>Elsődlegesen webre tervezték</li>
+                    <li>Gyengén típusos, tehát itt sem kell megadni a változóknak, hogy mik lehetnek</li>
+                    <li>Rengeteg dolog...</li>
+                </ul>
+            </div>
+            <div style="width: 50%;">
+                <h3>Különbségek</h3>
+                <ul>
+                    <li>A JS kliens oldalon fut a böngészőben, nem egy szerveren</li>
+                    <li>JS nem tud közvetlen csatlakozni adatbázishoz, fájlokat kezelni, stb.</li>
+                    <li>Szintaxis más</li>
+                    <li>Rengeteg dolog...</li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            A szintaxis lesz az első, legszembetűnőbb különbség, de segítek.
+        </p>
+        <ol>
+            <li>
+                A JS-ben ha van egy objektumunk akkor nem nyilacskával <code>-&gt;</code>,
+                hanem ponttal érhetjük el a mezőit és függvényeit. Próbáljuk is a <code>console</code> objektumon meghívni egy függvényt:
+                <code class="codeblock">
+                    console.log();
+                </code>
+                Ez a függvény a böngészőben előbb megkeresett konzolra ír ki bármit, amit megadunk neki.
+                Van 1 paramétere, ami <b>bármi</b> lehet. Szöveg, szám, logikai érték, objektum, lista. Szóval... Írj oda bármit! Például:
+                <code class="codeblock">
+                    console.log('Szia Jézuska!');
+                </code>
+            </li>
+            <li>Frissítsd az oldalt és nézd meg a konzolt.</li>
+            <li>
+                Yayy! Ott a szöveg (ha minden igaz 😅). Na de a programozásban adatokkal dolgozunk.
+                Próbáljuk meg, hogy paraméternek nem egy literált adunk, hanem csinálunk egy változót és azt íratjuk ki.
+                Ha emlékszel PHP-ban a változókat valahogy így kellett létrehozni és használni: <code>$variable</code><br>
+                A JavaScript megkülönbözteti a két esetet és máshogy néz ki a létrehozás és a használat:
+                <code class="codeblock">
+                    // így kell létrehozni egy konstanst (tároló, ami tudjuk, hogy nem fog változni csak olvassuk)<br>
+                    const variable1 = 'Szia Eszti!';<br>
+                    <br>
+                    // így kell változót létrehozni<br>
+                    let variable2 = 'Hamarosan kari 😁🎄';<br>
+                    <br>
+                    // használni mindkettőt ugyanúgy kell. elég csak a nevüket leírni.<br>
+                    // itt össze is fűztem a kettőt egy szóközzel elválasztva<br>
+                    const text = variable1 + ' ' + variable2;<br>
+                    <br>
+                    // most pedig az összefűzött szöveget kiírom a konzolra<br>
+                    console.log(text);
+                </code>
+                Csinálj egy változót, írd bele amit szeretnél és írasd ki a konzolra.
+            </li>
+            <li>
+                Bónusz: kísérletezz a műveletekkel, ismerkedj a szintaxissal
+                <ul class="sublist">
+                    <li>Végezz műveleteket számokkal.</li>
+                    <li>Rakj a kódba több kiírást.</li>
+                    <li>
+                        Próbálj meg több változót kiírni egyszerre, hogy így rakod paraméterbe:
+                        <code>console.log({variable1, variable2});</code>
+                    </li>
+                </ul>
+            </li>
+        </ol>
+        <p>
+            Mára egyelőre a JS-ből ennyi, de innentől nagyjából ezzel fogunk foglalkozni. 😌
+            Először ismerkedés, aztán segítünk a Jézuskának olyan kódokat alkotni, ami hasznos lesz neki az idei karácsonyhoz. 🎁
+        </p>
+        <a href="../index.html">
+            <div class="card day-card">
+                📅 Vissza a naptárhoz
+            </div>
+        </a>
+    </div>
+    
+    <script>const day = 12;</script>
+    <script src="../js/daychecker.js"></script>
+    <script src="../js/snow.js"></script>
+</body>
+</html>

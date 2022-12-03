@@ -45,7 +45,17 @@
                 hogy a weboldal <code>head</code> részébe a következő sort írod:
                 <code class="codeblock">&lt;link rel="stylesheet" href="style.css"&gt;</code>
             </li>
-            <li>Adj az oldalnak valamilyen háttérszínt.</li>
+            <li>
+                Adj az oldalnak valamilyen háttérszínt.
+                <details>
+                    <summary>❓ Segítég</summary>
+                    <code class="codeblock">
+                        body {<br>
+                            &nbsp;&nbsp;background-color: /* bármilyen szín */;<br>
+                        }
+                    </code>
+                </details>
+            </li>
             <li>
                 Színezd át a szöveget az oldalon. Ha MINDEN elemet ki szeretnél jelölni, használd a <code>*</code> kijelölőt.
                 <details>
@@ -57,11 +67,26 @@
                     </code>
                 </details>
             </li>
-            <li>Nagyíts a szövegen. 🔎 Az öreg Télapó nem tud elolvasni minden apró betűt. CSS tulajdonság: <code>font-size</code></li>
+            <li>
+                Nagyíts a szövegen. 🔎 Az öreg Télapó nem tud elolvasni minden apró betűt.<br>
+                CSS tulajdonság a betűmérethez: <code>font-size</code>
+                <details>
+                    <summary>❓ Példa</summary>
+                    <p>
+                        Az em mértékegységet szokták gyakran használni px helyett, mert így a felhasználó is átméretezheti szükség esetén.<br>
+                        1em = 16px (ha a felhasználó nem állította át a saját eszközén a betűméretet)
+                    </p>
+                    <code class="codeblock">
+                        p, span, li {<br>
+                            &nbsp;&nbsp;font-size: 1.8em;<br>
+                        }
+                    </code>
+                </details>
+            </li>
             <li>
                 Lehet, hogy egy picit a térközökön és elrendezésen is módosíthatunk. Könnyebb a szemnek, ha nincs minden összezsúfolva.
                 CSS-ben van külső (<code>margin</code>) és belső (<code>padding</code>) margó.
-                Próbáld ki, hogy mi a különbség úgy, hogy egy elemnek hattérszínt adsz és ezt a két tulajdonságot állíthatod.
+                Próbáld ki, hogy mi a különbség úgy, hogy egy elemnek hattérszínt adsz és ezt a két tulajdonságot állítgatod.
                 Ha megvagy, használd ezeket tetszés szerint, hogy az oldalon kicsit elkülönítsd a nem összetartozó elemeket.
                 <details>
                     <summary>❓ Ádám hogy szokta?</summary>
@@ -71,6 +96,16 @@
                         Ezért szoktam a CSS-t úgy kezdeni, hogy 0 méretű külső és belsó margókat állítok be mindenre.
                         Ha valaminek kell margó, azt később, pontosabb kijelöléssel beállítom neki.
                     </p>
+                    <code class="codeblock">
+                        * {<br>
+                            &nbsp;&nbsp;margin: 0;<br>
+                            &nbsp;&nbsp;padding: 0;<br>
+                        }<br><br>
+                        h1 {<br>
+                            &nbsp;&nbsp;margin-top: 8px;<br>
+                            &nbsp;&nbsp;margin-bottom: 8px;<br>
+                        }
+                    </code>
                 </details>
             </li>
             <li>
@@ -80,7 +115,9 @@
                     A listád egyik eleme legyen más színű. Bónusz: mindegyik elem legyen olyan színű, ami ahhoz passzol.
                 </p>
                 <code class="codeblock">
+                    HTML:<br>
                     &lt;li id="azonosító-neve"&gt;Oreo-s Milka&lt;/li&gt;<br><br>
+                    CSS:<br>
                     #azonosító-neve {<br>
                     &nbsp;&nbsp;color: #53617d;<br>
                     }

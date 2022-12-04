@@ -37,12 +37,13 @@
             Fontos infó: a böngésző a CSS-t elég erősen gyorsítótárazza.
             Szóval ha simán frissíted az oldalt, nem biztos, hogy látni fogsz minden változást.
             Én ezzel a billentyűkombóval szoktam teljes újratöltést csinálni: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd>
+            Így biztos frissül a CSS is.
         </p>
         <ol>
             <li>Készíts egy <code>style.css</code> fájlt a weboldal mellé.</li>
             <li>
                 Kösd össze a weboldalad ezzel a fájllal. Ezt úgy tudod megtenni,
-                hogy a weboldal <code>head</code> részébe a következő sort írod:
+                hogy az oldal <code>head</code> részébe a következő sort írod:
                 <code class="codeblock">&lt;link rel="stylesheet" href="style.css"&gt;</code>
             </li>
             <li>
@@ -58,18 +59,24 @@
             </li>
             <li>
                 Színezd át a szöveget az oldalon. Ha MINDEN elemet ki szeretnél jelölni, használd a <code>*</code> kijelölőt.
+                Szöveg színét a <code>color</code> tulajdonság beállításával adhatod meg.
                 <details>
                     <summary>❓ Segítég</summary>
                     <code class="codeblock">
                         * {<br>
                             &nbsp;&nbsp;color: /* bármilyen szín, ami passzol a háttérhez */;<br>
+                        }<br><br>
+                        /* egy példa, hogy hogyan lehet pirosra színezni az oldalon a bekezdéseket és lista elemeket */<br>
+                        p, li {<br>
+                            &nbsp;&nbsp;color: red;<br>
                         }
                     </code>
                 </details>
             </li>
             <li>
                 Nagyíts a szövegen. 🔎 Az öreg Télapó nem tud elolvasni minden apró betűt.<br>
-                CSS tulajdonság a betűmérethez: <code>font-size</code>
+                CSS tulajdonság a betűmérethez: <code>font-size</code><br>
+                Ennek a tulajdonságnak <code>16px</code> az alapértelmezett értéke a bekezdéseknél és egyéb nem fejléc szövegeknél.
                 <details>
                     <summary>❓ Példa</summary>
                     <p>
@@ -77,7 +84,7 @@
                         1em = 16px (ha a felhasználó nem állította át a saját eszközén a betűméretet)
                     </p>
                     <code class="codeblock">
-                        p, span, li {<br>
+                        p, li {<br>
                             &nbsp;&nbsp;font-size: 1.8em;<br>
                         }
                     </code>

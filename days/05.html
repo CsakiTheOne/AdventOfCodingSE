@@ -36,8 +36,8 @@
                 </code>
             </li>
             <li>
-                CSS-sel próbáld meg ezeket a linkeket úgy dísziteni, hogy gomb kinézetük legyen.
-                (<code>text-decoration: none;</code> tulajdonsággal el tudod tűntetni a vonalat.)
+                CSS-sel próbáld meg ezeket a linkeket úgy dísziteni, hogy gomb kinézetük legyen.<br>
+                (<code>text-decoration: none;</code> tulajdonsággal el tudod tűntetni a vonalat.)<br><br>
                 Ajánlom még a <code>background-color: bármilyen szín;</code>, <code>border-radius: valamennyi px;</code> és
                 <code>padding: valamennyi px;</code> tulajdonságokat.
             </li>
@@ -45,38 +45,34 @@
                 Egy gomb az egy interaktív elem. Hát csináljuk meg, hogy interaktívnak is nézzen ki!
                 CSS-ben bármilyen kijelölő mellé odaírhatod a <code>:hover</code> kulcsszót,
                 amivel kijelölöd az adott elemet <b>csak akkor ha az egér fölötte van.</b>
-                Változtasd meg a gomb háttér vagy szöveg színét és csináld meg,
-                hogy kicsit legyen nagyobb csak akkor, ha a felhasználó ráviszi az egeret.
+                Változtasd meg a gomb háttér vagy szöveg színét, ha a felhasználó ráviszi az egeret.
                 <code class="codeblock">
                     /* gomb alap kinézete */<br>
                     .btn {<br>
-                    &nbsp;&nbsp;/* ezt Ádám elmagyarázza ha kíváncsi vagy, de kell a transform tulajdonság működéséhez. */<br>
-                    &nbsp;&nbsp;display: inline-block;<br>
                     &nbsp;&nbsp;text-decoration: none;<br>
                     &nbsp;&nbsp;/* ... */<br>
                     }<br><br>
                     /* gomb egér alatti kinézete */<br>
                     .btn:hover {<br>
-                        &nbsp;&nbsp;transform: scale(1.1, 1.1);<br>
+                        &nbsp;&nbsp;background-color: green;<br>
                         &nbsp;&nbsp;/* ... */<br>
                     }
                 </code>
                 <div class="card day-card">
-                    Példa
+                    Példa a :hover és :active működésére
                 </div>
             </li>
             <li>
                 Gomboknál nem csak föléjük lehet vinni az egeret, hanem meg is lehet nyomni őket.
                 Ki lehet jelölni elemek benyomott állapotát is az <code>:active</code> kulcsszóval.
-                Jelöld ki a gombokat ezzel is és a méretük álljon vissza az eredetire, amíg le vannak nyomva.
-                <code class="codeblock">transform: scale(1, 1);</code>
+                Jelöld ki a gombokat ezzel is és a gombot állítsd át más színre vagy az eredeti színére, amíg le van nyomva.
             </li>
             <li>
                 Fejezd be az oldal díszítését tetszés szerint. 😁
             </li>
         </ol>
         <p>
-            Fun fact: Az <code>:active</code> kulcsszóval csináltam ezeket az aranyos, nyomkodható kombokat is:<br>
+            Fun fact: Az <code>:active</code> kulcsszóval csináltam ezeket az aranyos, nyomkodható gombokat is:<br>
             <kbd>E</kbd> <kbd>S</kbd> <kbd>Z</kbd> <kbd>T</kbd> <kbd>I</kbd>
             <details>
                 <summary>Nyomkodható gombok kódja</summary>
@@ -97,7 +93,7 @@ kbd {
 
 kbd:active {
     background-color: #ddd;
-    box-shadow: 0 0px 0 gray;
+    box-shadow: 0 0 0 gray;
     transform: translateY(3px);
 }</pre>
                 </code>

@@ -1,4 +1,5 @@
 const today = new Date().getDate();
+const debug = true;
 
 try {
     if (debug) { }

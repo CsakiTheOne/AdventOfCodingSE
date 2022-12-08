@@ -15,7 +15,7 @@
 
     <div class="container">
 
-        <h2 id="countdown">...</h2>
+        <h2 id="countdown">Összes befejezett nap feloldva</h2>
 
         <div class="center-children">
             <a href="https://eszter2000.github.io/AdventOfCoding2022/" target="_blank">
@@ -29,28 +29,12 @@
 
         <div class="center-children">
             <script>
-                const today = new Date().getDate();
                 for (let i = 1; i <= 24; i++) {
                     const iv = i < 10 ? `0${i}` : i.toString();
-                    if (i > today || today > 24) {
-                        document.writeln(
-                            `
-                        <div class="card day-card" style="cursor: not-allowed;">
-                            <h1>🔒 ${i}</h1>
-                        </div>
-                        `
-                        );
-                    }
-                    else if ([8, 9, 10, 11, 13, 14, 15].includes(i)) {
-                        document.writeln(
-                            `
-                        <a class="card day-card" href="days/break.html>
-                            <h1>🌨 ${i}</h1>
-                        </a>
-                        `
-                        );
-                    }
-                    else {
+                    const daysDone = [
+                        1, 2, 3, 4, 5, 6, 7, 12, 16, 17, 18, 19
+                    ];
+                    if (daysDone.includes(i)) {
                         document.writeln(
                             `
                         <a class="card day-card" href="days/${iv}.html">
@@ -65,7 +49,6 @@
     </div>
 
     <script src="js/snow.js"></script>
-    <script src="js/index.js"></script>
 </body>
 
 </html>

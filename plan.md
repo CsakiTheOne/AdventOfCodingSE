@@ -26,19 +26,3 @@
 | 22  | JS osztályok                   |     | emberek és átlaguk     |
 | 23  | JS listák, rendezés            |     | ki érdemel ajándékot?  |
 | 24  |                                |     |                        |
-
-## Megjegyzések
-
-### 8. nap
-
-[Könnyű modal készítés](https://stackoverflow.com/questions/54872125/make-modal-without-javascript)
-
-## Végleges weboldal terve
-
-- tartalom, alcímek (h2 elemek)
-  - menü (tartalomjegyzék)
-  - kívánság lista karácsonyra (nem csak tárgyak, lehet szeretet, nyugalom, erő az egyetemhez)
-  - kedvenc (karácsonyi) dal(ok)
-  - kedvenc (karácsonyi) filmek listája
-- funkciók
-  - ???
